@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 50 25% 97%;
+    --foreground: 220 25% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 10%;
+    --primary: 222 43% 20%;
+    --primary-foreground: 45 68% 55%;
+    --secondary: 42 43% 82%;
+    --secondary-foreground: 222 43% 20%;
+    --muted: 42 30% 90%;
+    --muted-foreground: 220 15% 40%;
+    --accent: 45 68% 47%;
+    --accent-foreground: 222 43% 20%;
+    --destructive: 8 46% 44%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 42 25% 78%;
+    --input: 42 25% 78%;
+    --ring: 45 68% 47%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Dark mode is not used for this school site. */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .ribbon-banner {
+    @apply relative inline-block bg-gold px-6 py-2 text-center text-navy font-heading font-bold;
+    clip-path: polygon(0 0, 100% 0, 95% 50%, 100% 100%, 0 100%, 5% 50%);
+  }
+}
