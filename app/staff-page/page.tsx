@@ -34,7 +34,7 @@ export default async function StaffPage() {
                   <img
                     src={member.photo_url || "/images/IMG-20260715-WA0053.jpg"}
                     alt={member.full_name}
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-contain"
                   />
                 </div>
                 <div className="p-5">

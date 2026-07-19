@@ -39,7 +39,7 @@ export default async function ContactPage() {
                 </div>
                 <div>
                   <dt className="font-semibold text-navy">Phone</dt>
-                  <dd>{body.phone || "+27 00 000 0000"}</dd>
+                  <dd>{body.phone || "+27 84 955 0163"}</dd>
                 </div>
                 <div>
                   <dt className="font-semibold text-navy">Email</dt>
@@ -58,8 +58,16 @@ export default async function ContactPage() {
                   dangerouslySetInnerHTML={{ __html: body.mapEmbed }}
                 />
               ) : (
-                <div className="mt-4 flex aspect-video w-full items-center justify-center rounded-lg bg-sand/30 text-sm text-muted-foreground">
-                  Map placeholder — add an embed code from the staff portal.
+                <div className="mt-4 flex aspect-video w-full flex-col items-center justify-center gap-3 rounded-lg bg-sand/30 text-sm">
+                  <p className="text-muted-foreground">View the school location on Google Maps.</p>
+                  <a
+                    href="https://maps.app.goo.gl/jiJFM9rBy7PnPur18"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex rounded-md bg-gold px-4 py-2 text-navy font-medium hover:bg-gold-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+                  >
+                    Open map
+                  </a>
                 </div>
               )}
             </div>

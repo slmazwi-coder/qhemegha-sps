@@ -33,7 +33,7 @@ export default async function NewsPage() {
                 <img
                   src={item.image_url || "/images/IMG-20260715-WA0053.jpg"}
                   alt={item.title}
-                  className="h-52 w-full object-cover"
+                  className="h-52 w-full object-contain"
                 />
                 <div className="p-5">
                   <h2 className="font-heading text-lg font-semibold text-navy">

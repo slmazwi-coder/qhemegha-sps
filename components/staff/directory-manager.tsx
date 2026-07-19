@@ -87,7 +87,7 @@ export function DirectoryManager({ initial }: { initial: StaffMember[] }) {
             <img
               src={member.photo_url || "/images/IMG-20260715-WA0053.jpg"}
               alt={member.full_name}
-              className="h-48 w-full object-cover"
+              className="h-48 w-full object-contain"
             />
             <div className="p-4">
               <h3 className="font-heading font-semibold text-navy">
@@ -200,7 +200,7 @@ function MemberForm({
         <img
           src={member.photo_url}
           alt="Preview"
-          className="h-32 rounded-md object-cover"
+          className="h-32 rounded-md object-contain"
         />
       )}
       <div className="flex gap-3">

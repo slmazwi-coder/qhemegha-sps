@@ -22,12 +22,12 @@ export function Nav() {
     <header className="sticky top-0 z-50 w-full border-b border-navy/10 bg-white/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center gap-3">
-          <div className="h-10 w-10 overflow-hidden rounded-full border-2 border-gold bg-navy">
+          <div className="h-11 w-11 overflow-hidden rounded-md border border-gold bg-white">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/logo.jpg"
               alt="Qhemegha SPS crest"
-              className="h-full w-full object-contain p-1"
+              className="h-full w-full object-contain"
             />
           </div>
           <div className="leading-tight">

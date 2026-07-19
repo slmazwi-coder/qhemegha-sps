@@ -91,7 +91,7 @@ export default async function HomePage() {
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="h-48 w-full object-cover"
+                  className="h-48 w-full object-contain"
                 />
                 <div className="p-5">
                   <h3 className="font-heading text-lg font-semibold text-navy">
@@ -112,7 +112,7 @@ export default async function HomePage() {
                 <img
                   src={item.image_url || "/images/IMG-20260715-WA0053.jpg"}
                   alt={item.title}
-                  className="h-48 w-full object-cover"
+                  className="h-48 w-full object-contain"
                 />
                 <div className="p-5">
                   <h3 className="font-heading text-lg font-semibold text-navy">

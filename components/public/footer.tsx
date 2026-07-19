@@ -40,6 +40,8 @@ export function Footer() {
               <br />
               Eastern Cape, South Africa
               <br />
+              +27 84 955 0163
+              <br />
               info@qhemegha-sps.co.za
             </address>
           </div>

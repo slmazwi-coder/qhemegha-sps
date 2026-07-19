@@ -79,7 +79,7 @@ export function NewsManager({ initial }: { initial: NewsItem[] }) {
             <img
               src={item.image_url || "/images/IMG-20260715-WA0053.jpg"}
               alt={item.title}
-              className="h-40 w-full object-cover"
+              className="h-40 w-full object-contain"
             />
             <div className="p-4">
               <h3 className="font-heading font-semibold text-navy">{item.title}</h3>
@@ -175,7 +175,7 @@ function NewsForm({
         <Input id="news-image" type="file" accept="image/*" onChange={upload} />
         {uploading && <p className="text-sm text-muted-foreground">Uploading...</p>}
         {item.image_url && (
-          <img src={item.image_url} alt="Preview" className="h-32 w-auto rounded-md object-cover" />
+          <img src={item.image_url} alt="Preview" className="h-32 w-auto rounded-md object-contain" />
         )}
       </div>
       <div className="flex gap-3">

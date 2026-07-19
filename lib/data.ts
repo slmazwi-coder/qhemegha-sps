@@ -109,7 +109,7 @@ const defaultPages: Record<string, Page> = {
     title: "Contact Us",
     body: {
       address: "Qhemegha Village, Alfred Nzo District, Eastern Cape, South Africa",
-      phone: "+27 00 000 0000",
+      phone: "+27 84 955 0163",
       email: "info@qhemegha-sps.co.za",
       mapEmbed: "",
     },
