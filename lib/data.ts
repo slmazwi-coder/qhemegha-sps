@@ -143,9 +143,9 @@ const defaultStaff: StaffMember[] = [
     display_order: 2,
   },
   {
-    full_name: "Ms N Mbeka",
-    role_title: "Admin Clerk",
-    photo_url: "/images/staff/mbeka.jpg",
+    full_name: "Mr Nochubela",
+    role_title: "Grade 6 class teacher — Mathematics (Grades 4–7)",
+    photo_url: "/images/staff/nochubela.jpg",
     display_order: 3,
   },
   {
@@ -155,9 +155,9 @@ const defaultStaff: StaffMember[] = [
     display_order: 4,
   },
   {
-    full_name: "Ms Shai",
-    role_title: "Grade R class teacher",
-    photo_url: "/images/staff/shai.jpg",
+    full_name: "Ms Dlula",
+    role_title: "Grade 4 class teacher — IsiXhosa & Social Sciences (Grades 4–7)",
+    photo_url: "/images/staff/dlula.jpg",
     display_order: 5,
   },
   {
@@ -167,21 +167,21 @@ const defaultStaff: StaffMember[] = [
     display_order: 6,
   },
   {
-    full_name: "Mr Nochubela",
-    role_title: "Grade 6 class teacher — Mathematics (Grades 4–7)",
-    photo_url: "/images/staff/nochubela.jpg",
+    full_name: "Ms Landu",
+    role_title: "Grade 2 class teacher",
+    photo_url: "/images/staff/landu.jpg",
     display_order: 7,
   },
   {
-    full_name: "Ms Dlula",
-    role_title: "Grade 4 class teacher — IsiXhosa & Social Sciences (Grades 4–7)",
-    photo_url: "/images/staff/dlula.jpg",
+    full_name: "Ms Shai",
+    role_title: "Grade R class teacher",
+    photo_url: "/images/staff/shai.jpg",
     display_order: 8,
   },
   {
-    full_name: "Ms Landu",
-    role_title: "Grade 2 class teacher & Grade R educator",
-    photo_url: "/images/staff/landu.jpg",
+    full_name: "Ms N Mbeka",
+    role_title: "Admin Clerk",
+    photo_url: "/images/staff/mbeka.jpg",
     display_order: 9,
   },
 ];
