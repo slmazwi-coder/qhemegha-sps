@@ -35,7 +35,7 @@ export default async function ContactPage() {
               <dl className="mt-4 space-y-4 text-foreground/80">
                 <div>
                   <dt className="font-semibold text-navy">Address</dt>
-                  <dd>{body.address || "Qhemegha Village, Eastern Cape"}</dd>
+                  <dd>{body.address || "Qhimirha Village, Orange Circuit, Sterkspruit CMC, Joe Gqabi District, Eastern Cape, South Africa"}</dd>
                 </div>
                 <div>
                   <dt className="font-semibold text-navy">Phone</dt>

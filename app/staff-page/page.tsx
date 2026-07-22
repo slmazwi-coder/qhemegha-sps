@@ -30,12 +30,20 @@ export default async function StaffPage() {
                 className="overflow-hidden rounded-xl border border-navy/10 bg-white text-center shadow-sm"
               >
                 <div className="h-56 w-full bg-sand/30">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={member.photo_url || "/images/IMG-20260715-WA0053.jpg"}
-                    alt={member.full_name}
-                    className="h-full w-full object-contain"
-                  />
+                  {member.photo_url ? (
+                    <img
+                      src={member.photo_url}
+                      alt={member.full_name}
+                      className="h-full w-full object-contain"
+                    />
+                  ) : (
+                    <div className="flex h-full w-full flex-col items-center justify-center gap-2 text-navy">
+                      <div className="flex h-20 w-20 items-center justify-center rounded-full bg-navy text-3xl font-bold text-gold">
+                        {member.full_name.charAt(0)}
+                      </div>
+                      <span className="text-sm font-medium">Photo coming soon</span>
+                    </div>
+                  )}
                 </div>
                 <div className="p-5">
                   <h2 className="font-heading text-lg font-semibold text-navy">

@@ -79,7 +79,7 @@ const defaultPages: Record<string, Page> = {
     title: "About Qhemegha Senior Primary School",
     body: {
       history:
-        "Qhemegha Senior Primary School serves the rural community of Qhemegha in the Eastern Cape. For many years we have been the place where local children begin their journey toward a better future. Our school is built on the values of hard work, respect and community.",
+        "Qhemegha Senior Primary School is situated in Qhimirha Village, Orange Circuit, Sterkspruit CMC, Joe Gqabi District in the Eastern Cape. For many years we have been the place where local children begin their journey toward a better future. Our school is built on the values of hard work, respect and community.",
       vision:
         "To be a school where every learner reaches their full potential and becomes a confident, caring member of the community.",
       mission:
@@ -108,7 +108,7 @@ const defaultPages: Record<string, Page> = {
     slug: "contact",
     title: "Contact Us",
     body: {
-      address: "Qhemegha Village, Alfred Nzo District, Eastern Cape, South Africa",
+      address: "Qhimirha Village, Orange Circuit, Sterkspruit CMC, Joe Gqabi District, Eastern Cape, South Africa",
       phone: "+27 84 955 0163",
       email: "info@qhemegha-sps.co.za",
       mapEmbed: "",
@@ -132,15 +132,57 @@ const defaultNews: NewsItem[] = [
 const defaultStaff: StaffMember[] = [
   {
     full_name: "Mr Lwandiso Maqhubu",
-    role_title: "Principal",
-    photo_url: "/images/IMG-20260715-WA0053.jpg",
+    role_title: "Principal & Grade 7 class teacher",
+    photo_url: null,
     display_order: 1,
   },
   {
-    full_name: "Mrs N. Mbali",
-    role_title: "Deputy Principal",
-    photo_url: "/images/IMG-20260715-WA0051.jpg",
+    full_name: "Mrs Mpalweni",
+    role_title: "Department Head (HOD) & Grade 1 class teacher",
+    photo_url: null,
     display_order: 2,
+  },
+  {
+    full_name: "Ms N Mbeka",
+    role_title: "Admin Clerk",
+    photo_url: null,
+    display_order: 3,
+  },
+  {
+    full_name: "Ms Ketsekile",
+    role_title: "Grade 5 class teacher — Life Skills & EMS (Grades 4–7)",
+    photo_url: null,
+    display_order: 4,
+  },
+  {
+    full_name: "Ms Shai",
+    role_title: "Grade R class teacher",
+    photo_url: null,
+    display_order: 5,
+  },
+  {
+    full_name: "Ms Dyantyi",
+    role_title: "Grade 3 class teacher",
+    photo_url: null,
+    display_order: 6,
+  },
+  {
+    full_name: "Mr Nochubela",
+    role_title: "Grade 6 class teacher — Mathematics (Grades 4–7)",
+    photo_url: null,
+    display_order: 7,
+  },
+  {
+    full_name: "Ms Dlula",
+    role_title: "Grade 4 class teacher",
+    photo_url: null,
+    display_order: 8,
+  },
+  {
+    full_name: "Ms Landu",
+    role_title: "Grade 2 class teacher & Grade R educator",
+    photo_url: null,
+    display_order: 9,
   },
 ];
 

@@ -83,12 +83,20 @@ export function DirectoryManager({ initial }: { initial: StaffMember[] }) {
             key={member.id || member.full_name}
             className="overflow-hidden rounded-xl border border-navy/10 bg-white text-center shadow-sm"
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={member.photo_url || "/images/IMG-20260715-WA0053.jpg"}
-              alt={member.full_name}
-              className="h-48 w-full object-contain"
-            />
+            {member.photo_url ? (
+              <img
+                src={member.photo_url}
+                alt={member.full_name}
+                className="h-48 w-full object-contain"
+              />
+            ) : (
+              <div className="flex h-48 w-full flex-col items-center justify-center gap-1 bg-sand/30 text-navy">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-navy text-2xl font-bold text-gold">
+                  {member.full_name.charAt(0)}
+                </div>
+                <span className="text-xs font-medium">No photo</span>
+              </div>
+            )}
             <div className="p-4">
               <h3 className="font-heading font-semibold text-navy">
                 {member.full_name}

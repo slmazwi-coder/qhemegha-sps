@@ -36,9 +36,9 @@ export function Footer() {
           <div>
             <p className="font-heading font-semibold text-gold">Contact</p>
             <address className="mt-2 not-italic text-sm text-white/80">
-              Qhemegha Village, Alfred Nzo District
+              Qhimirha Village, Orange Circuit, Sterkspruit CMC
               <br />
-              Eastern Cape, South Africa
+              Joe Gqabi District, Eastern Cape, South Africa
               <br />
               +27 84 955 0163
               <br />
